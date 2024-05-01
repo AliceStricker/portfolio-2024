@@ -61,6 +61,7 @@ body{
     
     margin-top: -4%;
     display: flex;
+    margin-right:3% ;
      
     
    
@@ -105,4 +106,12 @@ body{
 @font-face {
     font-family: "Baikal-VF";
     src: url("Baikal-VF.ttf");
+}
+
+.langue{
+    
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+    
 }

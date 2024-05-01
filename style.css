@@ -28,11 +28,22 @@ body{
 .autres{
     margin-top: -4%;
     display: flex;
+    margin-right:3% ;
 }
 
 
 .projets {
-    padding-top: 5%;
+    
+    width: 100%;
+    padding: none;
+    margin: none;
+    display: flex;
+    
+   
+}
+
+.projets {
+    margin-top: 5%;
     width: 100%;
     padding: none;
     margin: none;
@@ -43,14 +54,27 @@ body{
    
 }
 
+.projet22{
+    display: flex;
+   
+    width: 100%;
+    padding: 0;
+    margin: none;
+    display: flex;
+   
+}
+
 .feux, .rats {
     max-width: 100%;
     height: auto;
 }
 
-.sons{
-    max-width: 50%;
+.sons, .troisD {
+    max-width: 100%;
+    height: auto;
 }
+
+
 
 /* Media query pour les écrans plus petits */
 @media screen and (max-width: 600px) {
@@ -76,6 +100,13 @@ body{
     font-family: BebasKai;
 }
 
+.langue{
+    
+    text-decoration: none;
+    color: white;
+    font-family: BebasKai;
+    
+}
 
 
 @font-face {
